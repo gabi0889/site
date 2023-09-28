@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bory{
+    font-family: 'Roboto Mono', monospace;
+}
+.cabecalho {
+background-color: hwb(135 2% 5%);
+color: rgb(19, 18, 18);
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin: 24px 0;
+
+}
+
+
+.cabecalho-imagem {
+width: 25%;
+}
+.cabecalho-lista-item {
+    display: inline-block;
+    margin: 0 16px;
+}
+.escola-imagem {
+    width: 25%;
+}
+.escola {
+    background-image: linear-gradient(hwb(118 37% 8%), hwb(0 100% 0%));
+    color: rgb(7, 7, 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+.escola-div-conteudo {
+    width: 45%;
+}
+.escola-titulo {
+    padding: 24px 0;
+}
+.estudante-imagem{
+    width: 120px;
+}
